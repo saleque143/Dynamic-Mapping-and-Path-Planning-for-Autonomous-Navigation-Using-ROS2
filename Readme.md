@@ -7,6 +7,27 @@ This project provides a ROS 2-based simulation of an autonomous mobile robot in 
 ---
 
 ## **Setup Instructions**  
+### Clone the repo
+```bash
+mkdir -p /ros2_ws/Autonomous-Mobile-Robot/src;
+cd ~/ros2_ws/Autonomous-Mobile-Robot/src;
+git clone https://github.com/saleque143/Dynamic-Mapping-and-Path-Planning-for-Autonomous-Navigation-Using-ROS2.git
+```
+
+## Install Dependencies
+- Install the required by running these command
+
+```bash
+sudo apt-get install ros-jazzy-joint-state-publisher
+sudo apt-get install ros-jazzy-joint-state-publisher-gui
+sudo apt-get install ros-jazzy-ros-gz
+sudo apt-get install ros-jazzy-ros-gz-bridge
+sudo apt-get install ros-jazzy-gz-ros2-control
+sudo apt-get install ros-jazzy-ros2-control
+sudo apt-get install ros-jazzy-ros2-controllers
+sudo apt-get install ros-slam-toolbox
+sudo apt-get install ros-jazzy-navigation2
+```
 
 ### **1. Build the Workspace**  
 Open a terminal and navigate to the root directory of the workspace:  
